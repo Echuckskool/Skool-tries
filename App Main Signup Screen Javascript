@@ -1,0 +1,19 @@
+document.getElementById("signup-button").addEventListener("click", function() {
+    const email = document.getElementById("signup-email").value;
+    const password = document.getElementById("signup-password").value;
+    
+    // Implement user registration logic here (store in a database, etc.)
+    
+    // Redirect to Wikipedia
+    window.location.href = "file:///C:/Users/echolsclaw01/AppData/Local/Temp/Tempee2b830b-4b2f-4cba-a2b6-abe4dc28f43e_Skool-tries-html.zip/Skool-tries-html/dogle";
+});
+
+document.getElementById("login-button").addEventListener("click", function() {
+    const email = document.getElementById("login-email").value;
+    const password = document.getElementById("login-password").value;
+    
+    // Implement user authentication logic here
+    
+    // Redirect to Wikipedia
+    window.location.href = "file:///C:/Users/echolsclaw01/AppData/Local/Temp/Tempee2b830b-4b2f-4cba-a2b6-abe4dc28f43e_Skool-tries-html.zip/Skool-tries-html/dogle";
+});
