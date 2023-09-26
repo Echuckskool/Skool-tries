@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Selection</title>
+</head>
+<body>
+    <h1>Select a School</h1>
+    <select id="schoolSelect" onchange="navigateToWiki()">
+        <option value="">Choose a school...</option>
+        <option value="Boulder Prep Charter">Boulder Prep Charter</option>
+        <option value="Horizons K-8">Horizons K-8</option>
+        <option value="Justice">Justice</option>
+        <option value="Peak to Peak Charter">Peak to Peak Charter</option>
+        <option value="Summit Charter">Summit Charter</option>
+        <option value="Arapahoe Ridge">Arapahoe Ridge</option>
+        <option value="Boulder TEC">Boulder TEC</option>
+        <option value="Boulder Universal">Boulder Universal</option>
+        <option value="BVSD Online">BVSD Online</option>
+        <option value="Chinook West">Chinook West</option>
+        <option value="New Vista">New Vista</option>
+        <option value="Broomfield">Broomfield</option>
+        <option value="Centaurus" onclick="navigateToWikipedia()">Centaurus</option>
+        <option value="Fairview">Fairview</option>
+        <option value="Halcyon">Halcyon</option>
+        <option value="Monarch">Monarch</option>
+        <option value="Nederland Middle-Senior">Nederland Middle-Senior</option>
+        <option value="Angevine">Angevine</option>
+        <option value="Aspen Creek PK-8">Aspen Creek PK-8</option>
+        <option value="Broomfield Heights">Broomfield Heights</option>
+        <option value="Casey">Casey</option>
+        <option value="Centennial">Centennial</option>
+        <option value="Eldorado PK-8">Eldorado PK-8</option>
+        <option value="Horizon K-8">Horizon K-8</option>
+        <option value="Louisville">Louisville</option>
+        <option value="Manhattan">Manhattan</option>
+        <option value="Meadowlark PK-8">Meadowlark PK-8</option>
+        <option value="Monarch PK-8">Monarch PK-8</option>
+        <option value="Nevin Platt">Nevin Platt</option>
+        <option value="Southern Hills">Southern Hills</option>
+        <option value="Alicia Sanchez*">Alicia Sanchez*</option>
+        <option value="Aspen Creek K-8*">Aspen Creek K-8*</option>
+        <option value="Bear Creek">Bear Creek</option>
+        <option value="Birch*">Birch*</option>
+        <option value="Boulder Community School of Integrated Studies (BCSIS)">Boulder Community School of Integrated Studies (BCSIS)</option>
+        <option value="Coal Creek">Coal Creek</option>
+        <option value="Columbine*">Columbine*</option>
+        <option value="Community Montessori*">Community Montessori*</option>
+        <option value="Creekside*">Creekside*</option>
+        <option value="Crest View">Crest View</option>
+        <option value="Douglass*">Douglass*</option>
+        <option value="Eisenhower">Eisenhower</option>
+        <option value="Eldorado PK-8*">Eldorado PK-8*</option>
+        <option value="Emerald*">Emerald*</option>
+        <option value="Escuela Bilingue Pioneer*">Escuela Bilingue Pioneer*</option>
+        <option value="Fireside*">Fireside*</option>
+        <option value="Flatirons">Flatirons</option>
+        <option value="Foothill">Foothill</option>
+        <option value="Gold Hill">Gold Hill</option>
+        <option value="Heatherwood*">Heatherwood*</option>
+        <option value="High Peaks">High Peaks</option>
+        <option value="Jamestown">Jamestown</option>
+        <option value="Kohl*">Kohl*</option>
+        <option value="Lafayette*">Lafayette*</option>
+        <option value="Louisville">Louisville</option>
+        <option value="Mapleton ECE*">Mapleton ECE*</option>
+        <option value="Meadowlark PK-8*">Meadowlark PK-8*</option>
+        <option value="Mesa">Mesa</option>
+        <option value="Monarch PK-8*">Monarch PK-8*</option>
+        <option value="Nederland*">Nederland*</option>
+        <option value="Peak to Peak Charter">Peak to Peak Charter</option>
+        <option value="Ryan*">Ryan*</option>
+        <option value="Superior">Superior</option>
+        <option value="University Hill*">University Hill*</option>
+        <option value="Whittier International">Whittier International</option>
+    </select>
+
+    <script>
+        function navigateToWikipedia() {
+            window.location.href = "https://www.wikipedia.org";
+        }
+    </script>
+</body>
+</html>
