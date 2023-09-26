@@ -1,0 +1,30 @@
+diff --git a/centurhus page b/centurhus page
+new file mode 100644
+index 0000000..21c968e
+--- /dev/null
++++ b/centurhus page	
+@@ -0,0 +1,24 @@
++<!DOCTYPE html>
++<html>
++<head>
++    <title>Typing Features for Educators</title>
++    <style>
++        /* Add your custom CSS styles here */
++    </style>
++</head>
++<body>
++    <h1>Centaurus</h1>
++    
++    <script>
++        // Check if the user is an educator
++        var isEducator = false; // Change this to true if the user is an educator
++        
++        if (isEducator) {
++            // Add typing features for educators
++            document.addEventListener('keydown', function(event) {
++                // Add your typing feature logic here
++            });
++        }
++    </script>
++</body>
++</html>
