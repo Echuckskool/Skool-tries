@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Student or Educator</title>
+</head>
+<body>
+    <h1>Choose Student or Educator</h1>
+    <form action="https://jsfiddle.net/#&togetherjs=m6fLTEilSE" method="get">
+        <input type="radio" id="student" name="role" value="student">
+        <label for="student">Student</label><br>
+        <input type="radio" id="educator" name="role" value="educator">
+        <label for="educator">Educator</label><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
